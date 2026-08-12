@@ -1,0 +1,41 @@
+generated: '2026-08-12'
+method: searched
+source: https://decisionnext.com/company/
+trust_center: false
+trust_center_url: null
+note: >-
+  DecisionNext operates no dedicated trust center. trust.decisionnext.com and
+  security.decisionnext.com do not resolve, and /trust, /security, /compliance and
+  /soc2 all return 404 on the marketing site. The company's compliance posture is
+  published as attestation badges on its Company page only — an AICPA SOC 2 Type II
+  badge and an AWS Partner badge — with no linked report, subprocessor list, policy
+  page or request process. No VulnerabilityDisclosure artifact is emitted: the
+  automated probe found no security.txt, no disclosure page and no bug-bounty program,
+  so no Security pointer is claimed.
+certifications:
+- name: SOC 2 Type II
+  body: AICPA
+  status: claimed
+  evidence: >-
+    Badge image /images/AICPA-SOC-badge-dark_hu_5f850d9809c066af.webp with alt text
+    "AICPA SOC2 Type II" served on https://decisionnext.com/company/
+  report_url: null
+  verified_by_third_party: false
+partner_programs:
+- name: AWS Partner
+  evidence: >-
+    Badge image /images/aws-badge-dark_hu_1caa624d63b94e34.webp with alt text
+    "AWS Partner" served on https://decisionnext.com/company/
+- name: AWS Marketplace seller
+  url: https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm
+x-evidence:
+- url: https://decisionnext.com/company/
+  status: 200
+- url: https://decisionnext.com/trust
+  status: 404
+- url: https://decisionnext.com/security
+  status: 404
+- url: https://decisionnext.com/compliance
+  status: 404
+- url: https://decisionnext.com/.well-known/security.txt
+  status: 404

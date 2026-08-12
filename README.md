@@ -42,5 +42,20 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DecisionNext is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+DecisionNext is an AI and machine-learning software company (founded 2015) whose prescriptive
+analytics platform helps commodity-driven businesses decide what to buy and sell, when, at what
+price, and on what formula. The platform is organised in three layers — MarketView (commodity-specific
+price and supply forecasts built on USDA, CME and 100+ market sources), Enterprise (scenario, formula,
+mix and timing optimisation) and Governance (executive benchmarking and accountability). It serves
+food and agriculture (beef, pork, poultry, dairy, grains, edible oils) and natural resources (iron
+ore, thermal coal, LNG, copper, nickel, zinc, shipping), and is delivered as a SaaS product sold
+direct and through AWS Marketplace.
+
+**No public API surface.** As of 2026-08-12 DecisionNext publishes no developer portal, API reference,
+SDK, webhook catalog or machine-readable specification. `api.`, `docs.` and `developer.decisionnext.com`
+do not resolve; every `/.well-known/`, `/openapi.json`, `/swagger.json` and `/api-docs` probe on
+`decisionnext.com` returned 404. See `x-coverage` in `apis.yml` for the recorded evidence.
+
+- https://decisionnext.com/
+- https://decisionnext.com/products/
+- https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm

@@ -1,0 +1,23 @@
+generated: '2026-08-12'
+method: searched
+source: https://decisionnext.com/
+limit_count: 0
+note: >-
+  No rate limits are documented because DecisionNext publishes no API. There is no
+  developer portal, no API reference and no machine-readable specification anywhere
+  on the public surface; api./docs./developer.decisionnext.com do not resolve in DNS,
+  and every /.well-known/, /openapi.json, /swagger.json and /api-docs probe against
+  decisionnext.com returned 404. This is a recorded absence, not an unchecked field —
+  there is no runtime surface on which a rate-limit header could be observed.
+limits: []
+response_headers: []
+exhaustion_status: null
+x-evidence:
+- url: https://decisionnext.com/api
+  status: 404
+- url: https://decisionnext.com/developers
+  status: 404
+- url: https://decisionnext.com/docs
+  status: 404
+- url: https://decisionnext.com/openapi.json
+  status: 404

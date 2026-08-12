@@ -1,0 +1,45 @@
+generated: '2026-08-12'
+method: searched
+source: https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm
+plan_count: 1
+note: >-
+  DecisionNext publishes no pricing page on its own site (https://decisionnext.com/pricing
+  returns 404, and no pricing link appears in the site navigation, footer or the 294-URL
+  sitemap). The only publicly listed price for the product is the AWS Marketplace
+  listing for "DecisionNext Direct", a SaaS subscription sold as a fixed 12-month
+  license. A second product, "DN Enterprise", is listed on the SoftwareOne Marketplace
+  alongside DN Direct but carries no published price. There are no API plans, usage
+  tiers, metered dimensions or free tier of any kind — this is enterprise seat/unit
+  licensing, not an API product.
+plans:
+- name: DecisionNext Direct Annual License
+  channel: AWS Marketplace
+  url: https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm
+  delivery_method: SaaS
+  price: 103392.00
+  currency: USD
+  billing_period: 12 months
+  contract_terms:
+  - 12-month
+  unit: license unit
+  description: DecisionNext Direct standard 12 month license term.
+  included_quota: null
+  overage: null
+  limits: []
+  scaling_note: >-
+    The listing states pricing rises in line with the number of units licensed; the
+    published figure is the standard annual license for the base unit count.
+  custom_pricing_contact: aws-marketplace@decisionnext.com
+listed_without_price:
+- name: DN Enterprise
+  channel: SoftwareOne Marketplace
+  url: https://platform.softwareone.com/vendor/decisionnext/VND-2552-5138
+  price: null
+  note: Listed as an AI-powered SaaS platform; no price, unit or tier published.
+x-evidence:
+- url: https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm
+  status: 200
+- url: https://decisionnext.com/pricing
+  status: 404
+- url: https://platform.softwareone.com/vendor/decisionnext/VND-2552-5138
+  status: 200
