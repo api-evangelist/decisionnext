@@ -1,0 +1,14 @@
+{
+  "repo": "decisionnext",
+  "feeds": [
+    {
+      "source": "https://decisionnext.com/",
+      "feed_url": "https://decisionnext.com/index.xml",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-08-15T12:22:01Z"
+}
