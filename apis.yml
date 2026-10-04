@@ -50,7 +50,7 @@ tags:
 - Company
 - Analytics
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Forecasting
 - Commodities
 - Agriculture
@@ -78,6 +78,7 @@ tags_raw:
 - Risk Management
 - Decision Support
 - SaaS
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
