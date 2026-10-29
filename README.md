@@ -64,20 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DecisionNext is an AI and machine-learning software company (founded 2015) whose prescriptive
-analytics platform helps commodity-driven businesses decide what to buy and sell, when, at what
-price, and on what formula. The platform is organised in three layers — MarketView (commodity-specific
-price and supply forecasts built on USDA, CME and 100+ market sources), Enterprise (scenario, formula,
-mix and timing optimisation) and Governance (executive benchmarking and accountability). It serves
-food and agriculture (beef, pork, poultry, dairy, grains, edible oils) and natural resources (iron
-ore, thermal coal, LNG, copper, nickel, zinc, shipping), and is delivered as a SaaS product sold
-direct and through AWS Marketplace.
+DecisionNext is a San Francisco-founded (2015) AI and machine-learning software company whose prescriptive analytics platform helps commodity-driven businesses decide what to buy and sell, when, at what price, and on what formula. The platform is organised in three layers — MarketView (transparent, commodity-specific price and supply forecasts built on USDA, CME and 100+ other market sources), Enterprise (scenario, formula, mix and timing optimisation through applications such as ScenarioLab, DecisionBuilder, MarketSim, DataMiner, YieldMax and MarketPosition) and Governance (executive accountability and market benchmarking). It serves food and agriculture (beef, pork, poultry, dairy, grains, edible oils) and natural resources (iron ore, thermal coal, LNG, copper, nickel, zinc, shipping). DecisionNext is delivered as a SaaS product — sold direct and through AWS Marketplace — and, as of this profiling pass, publishes no public API, SDK, developer portal or machine-readable specification.
 
-**No public API surface.** As of 2026-08-12 DecisionNext publishes no developer portal, API reference,
-SDK, webhook catalog or machine-readable specification. `api.`, `docs.` and `developer.decisionnext.com`
-do not resolve; every `/.well-known/`, `/openapi.json`, `/swagger.json` and `/api-docs` probe on
-`decisionnext.com` returned 404. See `x-coverage` in `apis.yml` for the recorded evidence.
+**Areas:** Company · Analytics · Artificial Intelligence · Machine Learning · Forecasting · Commodities · Agriculture · Food and Beverage · Mining and Natural Resources · Supply Chain · Procurement · Pricing
 
-- https://decisionnext.com/
-- https://decisionnext.com/products/
-- https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm
+## DecisionNext on APIs.io
+
+Everything profiled for DecisionNext is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/decisionnext/](https://apis.io/providers/decisionnext/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Decisionnext Domain Security](https://apis.io/security/decisionnext/decisionnext-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Decisionnext Plans Pricing](https://apis.io/plans/decisionnext/decisionnext-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Decisionnext Rate Limits](https://apis.io/rate-limits/decisionnext/decisionnext-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://decisionnext.com/)
+- [Pricing](https://aws.amazon.com/marketplace/pp/prodview-b2s6cxniqaysm)
+- [Support](https://decisionnext.com/contact-us/)
+- [Blog](https://decisionnext.com/blog/)
+- [Compliance](https://decisionnext.com/company/)
+- [Terms of service](https://decisionnext.com/terms-conditions/)
+- [Privacy policy](https://decisionnext.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 19.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 60.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/decisionnext/](https://apis.io/providers/decisionnext/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DecisionNext: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/decisionnext/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
